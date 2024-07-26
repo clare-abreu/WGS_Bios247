@@ -1,1 +1,1 @@
-This folder contains
+This folder contains sequencing data, with the exception of the large bam files needed to for Exercises 2 and 3. Those are available in this public Dropbox folder: https://www.dropbox.com/scl/fo/mxcm17f1r4fkwk94er5ty/AOcBYNZ_XU3Zc3IkbHlZKQc?rlkey=kcb5u7i8xhtodk9sunlinznji&e=1&st=4bi9l4er&dl=0
