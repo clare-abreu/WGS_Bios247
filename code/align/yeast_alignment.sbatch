@@ -4,19 +4,22 @@
 #SBATCH -n 16
 #SBATCH -N 1
 #SBATCH -t 2-00:00
-#SBATCH --array=1-96
+#SBATCH --array=1-96   ## This script runs 96 samples (assuming you've broked up the samples into different plates). Modify as needed based on the numer of lines in your input file (yeast_alignment_samples_all.inp below).
 #SBATCH --mem-per-cpu=2G
 #SBATCH --requeue
-#SBATCH -o SlurmFiles/slurm-%A_%a_%x.out
+#SBATCH -o SlurmFiles/slurm-%A_%a_%x.out.  ## Note: Be sure to make a directory called SlurmFiles before running this
 
-bn=$(sed -n "$SLURM_ARRAY_TASK_ID"p yeast_alignment_samples.inp)
+# point to list of samples to be run
+bn=$(sed -n "$SLURM_ARRAY_TASK_ID"p yeast_alignment_samples_all.inp)
 
+# load required modules
 ml system
 ml ncurses/6.0
 ml biology
 ml bwa/0.7.17
 ml java
 
+### point to reference genome, data directory and output directory
 ref_genome=$"/home/groups/dpetrov/clare/S288C_reference/S288C_reference_genome_R64-1-1_20110203/S288C_reference_sequence_R64-1-1_20110203.fasta"
 dir=$"../RawData/WGS_ReSeq/"
 out_dir=$"Output/"
