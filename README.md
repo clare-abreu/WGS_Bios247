@@ -12,3 +12,7 @@ To download IGV: https://igv.org/doc/desktop/#DownloadPage/
 
 To register for Benching: https://www.benchling.com/
 
+# Links to slides:
+
+Monday: https://docs.google.com/presentation/d/1lyHtI5Bu3_upVMylQSM4HvQjXActwp6wtG7eDSDOoV8/edit?usp=sharing
+
