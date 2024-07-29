@@ -54,7 +54,7 @@ def hard_filter(variant,hard_filters):
     
     return filter_out
 
-#%% Read vcf:
+#%% Read vcf file:
 file_name = 'WGS_AllSamples_20Xcoverage.vcf.gz'  ## Insert your high-coverage vcf file name here
 
 names = get_vcf_names(file_name)
@@ -84,7 +84,7 @@ chromosome_map = {'chrI':'ref|NC_001133|',
 
 chromosome_map_rev = {val:key for (key,val) in chromosome_map.items()}
 
-#%%
+#%% gathers data for filtering out low-quality variants based on hard thresholds defined earlier
 hard_thresh_annotations = ['QD', 'FS', 'SOR', 'MQ', 'MQRankSum','ReadPosRankSum']
 hard_thresh_lists = {annotation:[] for annotation in hard_thresh_annotations}
 vcf = VCF(file_name)

@@ -1,4 +1,4 @@
-To align WGS data (modified version of Grant's pipeline):
+To align WGS data:
 
 (1) Move sequencing data (fastq R1 and R2 files) to Sherlock and do any helpful renaming.
 
