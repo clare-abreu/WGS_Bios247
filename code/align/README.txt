@@ -19,9 +19,9 @@ There input yeast_samples.sample_map is required here- it lists all of the files
 
 	3.5 Once you have the list of high-coverage files, include only those in the output vcf file using bcftools. 
 First load biology and bcftools (ml biology; ml bcftools). Then this command: 
-bcftools view -S hi_cov_file_names.tmp Output/WGS_AllSamples.vcf.gz > Output/MayReSeq_WGS_AllSamples_20Xcoverage.vcf
+bcftools view -S hi_cov_file_names.tmp Output/WGS_AllSamples.vcf.gz > Output/WGS_AllSamples_20Xcoverage.vcf
 And zip:
-gzip Output/MayReSeq_WGS_AllSamples_20Xcoverage.vcf
+gzip Output/WGS_AllSamples_20Xcoverage.vcf
 
 (4) Filter data
 Proceed to Filter folder and README.
