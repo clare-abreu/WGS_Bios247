@@ -3,7 +3,7 @@
 """
 Created on Sun May 14 23:17:09 2023
 
-@author: clare
+This code was adapted from Grant Kinsler's code.
 """
 #%% Import:
 import numpy as np

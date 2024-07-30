@@ -3,7 +3,6 @@
 """
 Created on Sun May 14 14:38:10 2023
 
-@author: clare
 
 This code was adapted from Grant Kinsler's code.
 
