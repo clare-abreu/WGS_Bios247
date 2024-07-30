@@ -55,7 +55,7 @@ def hard_filter(variant,hard_filters):
     return filter_out
 
 #%% Read vcf file:
-file_name = 'WGS_AllSamples_20Xcoverage.vcf.gz'  ## Insert your high-coverage vcf file name here
+file_name = 'WGS_AllSamples.vcf.gz'  ## Insert your high-coverage vcf file name here
 
 names = get_vcf_names(file_name)
 vcf = p.read_csv(file_name,compression='gzip', comment='#', delim_whitespace=True, header=None, names=names)
@@ -144,7 +144,7 @@ print('TOTAL REMAINING AFTER FILTER:',len(hard_filtered)-sum(hard_filtered))
 #%%
 ### CALL ANCESTRAL GENOTYPES
 
-GQ_thresh = 70
+GQ_thresh = 40
 n_high_quality = 5
 
 
@@ -245,6 +245,8 @@ variable_sites_df = p.DataFrame(variable_sites_dict)
 variable_sites_df.to_csv(f'{file_name.strip(".vcf.gz")}_manuallyCurated.csv')
 
 # %% Generate scripts for IGV to save images of SNPs
+
+## NOTE: The code below is specific to our set of genomes and SNPs. Modify it to your needs.
 
 # Add essentially randomly chosen controls that will appear at the bottom of each image for comparison
 # Select >80X coverage samples from various starting genotypes:
