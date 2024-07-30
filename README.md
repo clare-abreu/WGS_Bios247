@@ -16,3 +16,6 @@ To register for Benching: https://www.benchling.com/
 
 Monday: https://docs.google.com/presentation/d/1lyHtI5Bu3_upVMylQSM4HvQjXActwp6wtG7eDSDOoV8/edit?usp=sharing
 
+Tuesday: https://docs.google.com/presentation/d/1DUeKbsDoTGSi2Uxp-dYp7p6QRP2RuDegkbMqlbJ_OLI/edit?usp=sharing
+
+
