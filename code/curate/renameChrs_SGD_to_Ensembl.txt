@@ -1,0 +1,17 @@
+ref|NC_001133|  I
+ref|NC_001134|  II
+ref|NC_001135|  III
+ref|NC_001136|  IV
+ref|NC_001137|  V
+ref|NC_001138|  VI
+ref|NC_001139|  VII
+ref|NC_001140|  VIII
+ref|NC_001141|  IX
+ref|NC_001142|  X
+ref|NC_001143|  XI
+ref|NC_001144|  XII
+ref|NC_001145|  XIII
+ref|NC_001146|  XIV
+ref|NC_001147|  XV
+ref|NC_001148|  XVI
+ref|NC_001224|  Mito
