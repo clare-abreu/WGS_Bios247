@@ -20,4 +20,6 @@ Tuesday: https://docs.google.com/presentation/d/1DUeKbsDoTGSi2Uxp-dYp7p6QRP2RuDe
 
 Wednesday: https://docs.google.com/presentation/d/1tS7hpEXKN0UWrO_FTpWrYsR8TJFdVcsX4NTYlbcpMs8/edit?usp=sharing
 
+Thursday: https://docs.google.com/presentation/d/1OnPSGYlJfNSk3TXBTfNSULS-TLxavRvx9mfvsyK7wKk/edit?usp=sharing
+
 
