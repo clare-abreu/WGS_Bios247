@@ -18,4 +18,6 @@ Monday: https://docs.google.com/presentation/d/1lyHtI5Bu3_upVMylQSM4HvQjXActwp6w
 
 Tuesday: https://docs.google.com/presentation/d/1DUeKbsDoTGSi2Uxp-dYp7p6QRP2RuDegkbMqlbJ_OLI/edit?usp=sharing
 
+Wednesday: https://docs.google.com/presentation/d/1tS7hpEXKN0UWrO_FTpWrYsR8TJFdVcsX4NTYlbcpMs8/edit?usp=sharing
+
 
