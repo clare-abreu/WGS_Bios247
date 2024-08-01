@@ -8,7 +8,7 @@ The data folder contains Sanger sequencing data for Exercise 1 in the Sanger_dat
 
 The exercises folder contains exercises to be completed in Week 1.
 
-To download IGV: https://igv.org/doc/desktop/#DownloadPage/
+To download IGV (NOTE: You need version 2.16.2 to read the bam files in this repo): https://igv.org/doc/desktop/#DownloadPage/
 
 To register for Benching: https://www.benchling.com/
 
